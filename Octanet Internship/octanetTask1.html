@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelance Portfolio</title>
+    <link rel="stylesheet" href="octanetTask1.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>Your Name</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section id="home" class="hero">
+    <div class="container">
+        <h2>Welcome to Your Portfolio</h2>
+        <p>I'm a passionate freelance <span class="highlight">developer/designer</span> ready to create amazing digital experiences for you.</p>
+        <a href="#portfolio" class="btn">View Portfolio</a>
+    </div>
+</section>
+
+<section id="portfolio" class="portfolio">
+    <div class="container">
+        <h2>Portfolio</h2>
+        <div class="portfolio-grid">
+            <!-- Portfolio items dynamically generated -->
+            <div class="portfolio-item">
+                <img src="https://media.istockphoto.com/id/178390367/photo/bungalow.jpg?s=612x612&w=0&k=20&c=XLIItbLYy_lFTEZfiem46WXiTzM_WfgF-dZRpiylVXE=" alt="Project 1">
+                <h3>Project 1</h3>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://d3hnfqimznafg0.cloudfront.net/images/Article_Images/ImageForArticle_737(1).jpg" alt="Project 2">
+                <h3>Project 2</h3>
+            </div>
+            <!-- Add more portfolio items as needed -->
+        </div>
+    </div>
+</section>
+
+<section id="about" class="about">
+    <div class="container">
+        <h2>About Me</h2>
+        <p>I am a skilled freelance developer/designer specializing in creating responsive websites and web applications.</p>
+        <!-- Add more about me content -->
+    </div>
+</section>
+
+<section id="testimonials" class="testimonials">
+    <div class="container">
+        <h2>Testimonials</h2>
+        <div class="testimonial-slider">
+            <!-- Testimonials dynamically generated -->
+            <div class="testimonial">
+                <p>"Great work! Highly recommend."</p>
+                <cite>Client Name, Company</cite>
+            </div>
+            <div class="testimonial">
+                <p>"Outstanding creativity and attention to detail."</p>
+                <cite>Another Client, Another Company</cite>
+            </div>
+            <!-- Add more testimonials as needed -->
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <div class="container">
+        <h2>Contact Me</h2>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        <div class="social-links">
+            <!-- Add social media icons/links -->
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="octanetTask1.js"></script>
+</body>
+</html>
